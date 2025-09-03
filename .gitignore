@@ -1,0 +1,33 @@
+# node / typescript
+node_modules
+dist
+build
+*.tsbuildinfo
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# expo / react native
+.expo
+.expo-shared
+
+# docker
+pgdata
+redisdata
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
